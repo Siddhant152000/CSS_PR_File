@@ -1,0 +1,1398 @@
+
+.navbar {
+    background-color: rgb(23, 22, 22);
+    height: 70px;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+   
+}
+
+.navbar nav ul li {
+    display:inline-block;
+}
+
+.navbar nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 25px 20px;
+    color: rgb(255, 255, 255);
+    z-index: 1; 
+    
+}
+
+.navbar nav ul li a:hover{
+    color: orange;
+   
+}
+
+.navbar nav ul .subnav1{
+    position: absolute;
+    top: 60px;
+    display: none;
+    background-color: orange;
+    list-style-type: none ;
+    z-index: 1;
+    
+}
+
+.navbar .subnav1 a:hover{
+    background-color: white;
+    color: orange;
+}
+
+.navbar nav ul li:hover .subnav1{
+    display: block;
+}
+
+.navbar nav .subnav1 li{
+display: list-item;
+}
+
+.navbar nav{
+position: relative;
+text-align: center;
+bottom: 70px;
+}
+
+.navbar img{
+position: relative;
+left: 150px;
+}
+
+.navbar nav input{
+position: relative;
+left: 100px;
+padding: 15px 25px;
+color: white;
+background-color: orange;
+font-weight: bold;
+border: none;
+}
+.navbar nav input:hover{
+background-color: rgb(8, 86, 240);
+}
+/* ------------------------------------------bg-img1---------------------------------------------------------- */
+.bg-img1 {
+    background-image: url(./img4/bg-1.jpg);
+    height: 700px;
+    width: 100%;
+}
+
+.bg-img1 h1 {
+    color: white;
+    font-size: 120px;
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
+.bg-img1 p {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 250px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.bg-img1 input {
+    color: white;
+    font-size: 15px;
+    padding: 8px 30px;
+    position: relative;
+    top: 300px;
+    left: 700px;
+    line-height: 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+}
+
+.bg-img1 input:hover{
+    background-color: rgb(8, 86, 240);
+}
+
+/* ------------------------------------------media screen---------------------------------------------------------- */
+@media screen and (max-width:767px) {
+
+    .bg-img1 h1 {
+        font-size: 79px;
+    }
+    .bg-img1 p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .bg-img1 input {
+        left: 236px;
+    }
+}
+
+
+.bg-img2{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+}
+
+.bg-img2 .i1{
+    position: relative;
+    left: 1190px;
+}
+
+.bg-img2 .i2{
+    position: relative;
+    top: 400px;
+    right: 320px;
+}
+
+.bg-img2 .i3{
+    position: relative;
+    top: 400px;
+    left: 550px;
+}
+
+.bg-img2 h1{
+    font-size: 35px;
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+}
+
+.bg-img2 p{
+    font-size: 17px;
+    position: relative;
+    bottom: 190px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.bg-img2 .card1{
+    display: flex;
+    position: relative;
+    bottom: 140px;
+   
+}
+
+.bg-img2 .card1 h3{
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.bg-img2 .card1 a1{
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.bg-img2 .card1 img{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.bg-img2 .card1 .c1{
+    background-color: hsla(0, 5%, 5%, 0.1);
+    height: 200px;
+    width: 370px;
+    margin-left: 180px;
+    display: flex;
+}
+
+.bg-img2 .card1 .c1:hover {
+    transition: all .8s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(71, 71, 71);
+    background-color: white;
+}
+
+.bg-img2 .card1 .c2{
+    background-color: hsla(0, 5%, 5%, 0.1);
+    height: 200px;
+    width: 370px;
+    margin-left: 25px;
+    display: flex;
+    
+}
+
+.bg-img2 .card1 .c2:hover {
+    transition: all .8s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(71, 71, 71);
+    background-color: white;
+}
+
+.bg-img2 .card1 .c3{
+    background-color: hsla(0, 5%, 5%, 0.1);
+    height: 200px;
+    width: 370px;
+    margin-left: 25px;
+    display: flex;
+}
+
+.bg-img2 .card1 .c3:hover {
+    transition: all .8s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(71, 71, 71);
+    background-color: white;
+}
+
+.bg-img2 .card2{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+}
+
+.bg-img2 .card2 a1{
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.bg-img2 .card2 img{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.bg-img2 .card2 h3{
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.bg-img2 .card2 .c4{
+    background-color: hsla(0, 5%, 5%, 0.1);
+    height: 200px;
+    width: 370px;
+    margin-left: 180px;
+    display: flex;
+}
+
+.bg-img2 .card2 .c4:hover {
+    transition: all .8s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(71, 71, 71);
+    background-color: white;
+}
+.bg-img2 .card2 .c5{
+    background-color: hsla(0, 5%, 5%, 0.1);
+    height: 200px;
+    width: 370px;
+    margin-left: 25px;
+    display: flex;
+}
+
+.bg-img2 .card2 .c5:hover {
+    transition: all .8s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(71, 71, 71);
+    background-color: white;
+}
+
+.bg-img2 .card2 .c6{
+    background-color: hsla(0, 5%, 5%, 0.1);
+    height: 200px;
+    width: 370px;
+    margin-left: 25px;
+    display: flex;
+}
+
+.bg-img2 .card2 .c6:hover {
+    transition: all .8s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(71, 71, 71);
+    background-color: white;
+}
+
+/* ------------------------------------------media screen---------------------------------------------------------- */
+@media screen and (max-width:767px) {
+
+    .bg-img2 {
+        height: 1600px;
+    }
+    .bg-img2 h1 {
+        bottom: 475px;
+    }
+    .bg-img2 p {
+        bottom: 460px;
+    }
+    .bg-img2 .card1 {
+        display: block;
+    }
+    .bg-img2 .card1 {
+        bottom: 408px;
+        right: 70px;
+    }
+
+    .bg-img2 .card1 .c2{
+       position: relative;
+       top:30px;
+       left: 155px; 
+    }
+    .bg-img2 .card1 .c3{
+        position: relative;
+        top:60px;
+        left: 155px; 
+     }
+     .bg-img2 .card2 {
+       display: block;
+    }
+    .bg-img2 .card2 {
+        bottom: 315px;
+        right: 70px;
+    }
+    .bg-img2 .card2 .c5{
+        position: relative;
+        top: 30px;
+        left: 155px;
+    }
+    .bg-img2 .card2 .c6{
+        position: relative;
+        top: 60px;
+        left:155px;
+    }
+}
+
+.bg-img3{
+    background-image: url(./img4/bg-3.jpg);
+    height: 700px;
+    width: 100%;
+}
+
+.bg-img3 h1{
+    position: relative;
+    top: 100px;
+    margin-left: 650px;
+    line-height: 40px;
+    font-size: 32px;
+}
+
+.bg-img3 p{
+    position: relative;
+    top: 110px;
+    margin-left: 650px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.bg-img3 .img3 .i3{
+    position: relative;
+    top: 180px;
+    left: 650px;
+}
+
+.bg-img3 .img3 h3{
+    position: relative;
+    top: 120px;
+    margin-left: 720px;
+}
+
+.bg-img3 .img3 p{
+    position: relative;
+    top: 130px;
+    margin-left: 720px;
+    line-height: 23px;
+}
+
+.bg-img3 .img3 h3:hover{
+    transition: all .5s;
+    color: orange;
+}
+
+.bg-img3 .img4 .i4{
+    position: relative;
+    top: 180px;
+    left: 650px;
+}
+
+.bg-img3 .img4 h3{
+    position: relative;
+    top: 120px;
+    margin-left: 720px;
+}
+
+.bg-img3 .img4 h3:hover{
+    transition: all .5s;
+    color: orange;
+}
+.bg-img3 .img4 p{
+    position: relative;
+    top: 130px;
+    margin-left: 720px;
+    line-height: 23px;
+}
+
+.bg-img3 input{
+    background-color: orange;
+    color: white;
+    font-size: 17px;
+    padding: 15px 30px ;
+    border: none;
+    position: relative;
+    left: 650px;
+    top: 200px;
+}
+
+.bg-img3 input:hover{
+    transition: all .5s;
+    background-color: black;
+}
+
+.bg-img3 .i4-1{
+    position: absolute;
+    top: 1500px;
+    left: 50px;
+}
+
+.bg-img3 .i4-2{
+    position: absolute;
+    top: 1750px;
+    height: 350px;
+    margin-left: 1000px;
+
+}
+
+.bg-img3 a{
+    text-decoration: none;
+    color:black ;
+}
+
+/* ------------------------------------------media screen---------------------------------------------------------- */
+@media screen and (max-width:767px) {
+
+    .bg-img3 .i4-1 {
+        position: absolute;
+        top: 2324px;
+        left: 50px;
+        height: 500px;
+    }
+
+    .bg-img3 {
+        height: 1043px;
+    }
+
+    .bg-img3 h1 {
+        position: relative;
+        top: 532px;
+        margin-left: 40px;
+        line-height: 38px;
+        font-size: 32px;
+    }
+
+    .bg-img3 p {
+        position: relative;
+        top: 540px;
+        margin-left: 40px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .bg-img3 .img3 .i3 {
+        position: relative;
+        top: 572px;
+        left: 41px;
+    }
+
+    .bg-img3 .img3 h3 {
+        position: relative;
+        top: 512px;
+        margin-left: 122px;
+    }
+
+    .bg-img3 .img3 p {
+        position: relative;
+        top: 516px;
+        margin-left: 122px;
+        line-height: 23px;
+    }
+
+    .bg-img3 .img4 .i4 {
+        position: relative;
+        top: 550px;
+        left: 41px;
+    }
+
+    .bg-img3 .img4 h3 {
+        position: relative;
+        top: 498px;
+        margin-left: 121px;
+    }
+
+    .bg-img3 .img4 p {
+        position: relative;
+        top: 499px;
+        margin-left: 120px;
+        line-height: 23px;
+    }
+
+    .bg-img3 input {
+        left: 40px;
+        top: 545px;
+    }
+}
+
+.bg-img4{
+    background-color: white;
+    height: 1500px;
+}
+
+.bg-img4 h1{
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.bg-img4 p{
+    text-align: center;
+    position: relative;
+    top: 110px;
+    line-height: 25px;
+}
+
+.bg-img4 .menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 24%;
+    font-size: 17px;
+    position: relative;
+    left: 590px;
+    top: 150px;
+}
+
+.bg-img4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.bg-img4 .menu a:hover{
+    color: orange;
+}
+
+.pr-img1{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 150px;
+    position: relative;
+    top: 200px;
+    
+}
+
+.pr-img1 h1{
+    font-size: 50px;
+    position: absolute;
+    top: 130px;
+    margin-left: 100px;
+    color: white;
+    display: none;
+
+}
+
+.pr-img1 .p-img1{
+    background-color: orange;
+    height: 350px;
+}
+
+.p-img1 .p1:hover{
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.p-img1 .p1:hover + h1{
+    display: block;
+}
+
+.pr-img1 .p-img2{
+    background-color: orange;
+    height: 350px;
+}
+
+.p-img2 .p2:hover{
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.p-img2 .p2:hover + h1{
+    display: block;
+}
+
+.pr-img1 .p-img3{
+    background-color: orange;
+    height: 350px;
+}
+
+.p-img3 .p3:hover{
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.p-img3 .p3:hover + h1{
+    display: block;
+}
+
+.pr-img2{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 150px;
+    position: relative;
+    top: 230px;
+}
+
+.pr-img2 h1{
+    font-size: 50px;
+    position: absolute;
+    top: 130px;
+    margin-left: 100px;
+    color: white;
+    display: none;
+}
+
+.pr-img2 .p-img4{
+    background-color: orange;
+    height: 350px;
+}
+
+.p-img4 .p4:hover{
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.p-img4 .p4:hover + h1{
+    display: block;
+}
+
+.pr-img2 .p-img5{
+    background-color: orange;
+    height: 350px;
+}
+
+.p-img5 .p5:hover{
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.p-img5 .p5:hover + h1{
+    display: block;
+}
+
+.pr-img2 .p-img6{
+    background-color: orange;
+    height: 350px;
+}
+
+.p-img6 .p6:hover{
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.p-img6 .p6:hover + h1{
+    display: block;
+}
+
+.pr-img3{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 150px;
+    position: relative;
+    top: 260px;
+}
+
+.pr-img3 h1{
+    font-size: 50px;
+    position: absolute;
+    top: 130px;
+    margin-left: 100px;
+    color: white;
+    display: none;
+}
+
+.pr-img3 .p-img7{
+    background-color: orange;
+    height: 350px;
+}
+
+.p-img7 .p7:hover{
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.p-img7 .p7:hover + h1{
+    display: block;
+}
+
+.pr-img3 .p-img8{
+    background-color: orange;
+    height: 350px;
+}
+
+.p-img8 .p8:hover{
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.p-img8 .p8:hover + h1{
+    display: block;
+}
+
+.pr-img3 .p-img9{
+    background-color: orange;
+    height: 350px;
+}
+
+.p-img9 .p9:hover{
+    opacity: 0.2;
+    transition: .5s;
+}
+
+.p-img9 .p9:hover + h1{
+    display: block;
+}
+
+
+.bg-img5 {
+    background-image: url(./img4/bg-3.jpg);
+    height: 500px;
+    width: 100%;
+}
+
+.bg-img5 .map {
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.bg-img5 .aus {
+    position: absolute;
+    left: 820px;
+    top: 3980px;
+}
+
+.bg-img5 .aus i {
+    color: orange;
+}
+
+.bg-img5 .aus p {
+    display: none;
+}
+
+.bg-img5 .ca {
+    position: absolute;
+    left: 300px;
+    top: 3750px;
+}
+
+.bg-img5 .ca i {
+    color: orange;
+}
+
+.bg-img5 .ca p {
+    display: none;
+}
+
+.bg-img5 .rus {
+    position: absolute;
+    left: 750px;
+    top: 3750px;
+}
+
+.bg-img5 .rus i {
+    color: orange;
+}
+
+.bg-img5 .rus p {
+    display: none;
+}
+
+.bg-img5 .ban {
+    position: absolute;
+    left: 730px;
+    top: 3840px;
+}
+
+.bg-img5 .ban i {
+    color: orange;
+}
+
+.bg-img5 .ban p {
+    display: none;
+}
+
+.bg-img5 .sing {
+    position: absolute;
+    left: 750px;
+    top: 3880px;
+}
+
+.bg-img5 .sing i {
+    color: orange;
+}
+
+.bg-img5 .sing p {
+    display: none;
+}
+
+.bg-img5 .kor {
+    position: absolute;
+    left: 810px;
+    top: 3800px;
+}
+
+.bg-img5 .kor i {
+    color: orange;
+}
+
+.bg-img5 .kor p {
+    display: none;
+}
+
+.bg-img5 i:hover+p {
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 5px 15px;
+}
+
+.bg-img5 h1 {
+    position: relative;
+    margin-left: 950px;
+    bottom: 350px;
+    font-size: 35px;
+}
+
+.bg-img5 h4 {
+    position: relative;
+    margin-left: 950px;
+    bottom: 190px;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+.bg-img5 input {
+    position: relative;
+    margin-left: 220px;
+    bottom: 50px;
+    padding: 12px 35px;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.bg-img5 input:hover {
+    background-color: black;
+    transition: all .5s;
+}
+
+.bg-img6 {
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 100%;
+}
+
+.bg-img6 h1{
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.bg-img6 p{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.team {
+   margin-top: 100px;
+}
+
+.team h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team img{
+    margin-left: 30px;
+}
+
+.bg-img6 .mng {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 280px;
+    box-shadow: 0px 0px 2px 0px rgb(194, 194, 194);
+}
+
+.bg-img6 .mng img {
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+}
+
+ .bg-img6 .mng:hover{
+    transition: all .3s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(199, 197, 197);
+}
+
+.bg-img6 .ceo {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 280px;
+    box-shadow: 0px 0px 2px 0px rgb(194, 194, 194);
+}
+
+.bg-img6 .ceo img {
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+} 
+
+.bg-img6 .ceo:hover{
+    transition: all .3s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(199, 197, 197);
+}
+
+.bg-img6 .mark {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 280px;
+    box-shadow: 0px 0px 2px 0px rgb(194, 194, 194);
+}
+
+.bg-img6 .mark img {
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+} 
+
+ .bg-img6 .mark:hover{
+    transition: all .3s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(199, 197, 197);
+}
+
+.bg-img6 .farm {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 280px;
+    box-shadow: 0px 0px 2px 0px rgb(194, 194, 194);
+}
+
+.bg-img6 .farm img {
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+} 
+
+ .bg-img6 .farm:hover{
+    transition: all .3s;
+    transform: scale(1.01);
+    color: orange;
+    box-shadow: 0px 5px 10px 1px rgb(199, 197, 197);
+}  
+
+.bg-img6 .team {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 150px;
+    position: relative;
+    top: 50px;
+}  
+ 
+.team h3 {
+    position: relative;
+    top: 30px;
+}
+
+.team p {
+    position: relative;
+    top: 30px;
+    color: rgb(192, 190, 190);
+}
+
+.team i {
+    position: relative;
+    top: 50px;
+}
+
+.team a i:hover{
+    color: orange;
+}
+
+.team .fa-twitter{
+    color: rgb(0, 123, 255);
+    margin-left: 90px;
+    position: relative;
+    right: 10px;
+
+}
+
+.team .fa-behance{
+    color: rgb(0, 72, 255);
+    position: relative;
+    right: 5px;
+
+}
+
+.team .fa-instagram{
+    color: red;
+}
+
+.team .fa-vimeo-v{
+    color: navy;
+    position: relative;
+    left: 5px;
+
+}
+
+.team .fa-linkedin-in{
+    color: rgb(0, 123, 255);
+    position: relative;
+    left: 10px;
+
+} 
+
+.bg-img7 {
+    background-image: url(./img4/bg-3.jpg);
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.bg-img7 h1 {
+    font-size: 40px;
+    color: orange;
+    position: relative;
+    top: 150px;
+    margin-left: 100px;
+}
+
+.bg-img7 h2 {
+    font-size: 50px;
+    position: relative;
+    top: 155px;
+    margin-left: 100px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.bg-img7 p {
+    position: relative;
+    top: 160px;
+    margin-left: 100px;
+    line-height: 25px;
+
+}
+
+.bg-img7 input {
+    position: relative;
+    top: 190px;
+    margin-left: 100px;
+    padding: 15px 45px;
+    font-size: 16px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+}
+
+.bg-img7 input:hover{
+    background-color: black;
+    transition: all .5s;
+}
+
+.bg-img7 img{
+    height: 450px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+
+.bg-img8 {
+    background-color: rgb(255, 255, 255);
+    height: 620px;
+    width: 100%;
+}
+
+.bg-img8 .header h1 {
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.bg-img8 .header p {
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    top: 110px;
+}
+
+.bg-img8 .tc{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin-left: 100px;
+}
+.bg-img8 .c-ceo {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 150px;
+   
+}
+
+.bg-img8 .c-ceo:hover {
+    transition: all .3s;
+    transform: scale(1.01);
+    box-shadow: 0px 5px 10px 1px rgb(144, 144, 144);
+}
+
+.bg-img8 .c-ceo:hover a{
+    color: orange;
+}
+
+.bg-img8 .c-ceo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px 20px;
+    /* float: left; */
+}
+
+.bg-img8 .c-ceo a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 120px;
+    left: 140px;
+    font-size: 17px;
+}
+
+.bg-img8 .c-ceo p {
+    position: relative;
+    bottom: 110px;
+    left: 140px;
+}
+
+.bg-img8 .c-ceo i {
+    color: orange;
+    position: relative;
+    bottom: 150px;
+    left: 140px
+}
+
+.bg-img8 .c-ceo .quote {
+    height: 22px;
+    width: 22px;
+    position: relative;
+    bottom: 80px;
+    right: 80px;
+}
+
+.bg-img8 .c-ceo h4 {
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.bg-img8 .c-ceo .quote2 {
+    height: 22px;
+    width: 22px;
+    position: relative;
+    bottom: 110px;
+    left: 300px;
+}
+
+.bg-img9 {
+    background-image: url(./img4/bg-3.jpg);
+    height: 750px;
+    width: 100%;
+}
+
+.bg-img9 h1 {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 100px;
+}
+
+.bg-img9 p {
+    text-align: center;
+    position: relative;
+    top: 110px;
+
+}
+
+.bg-img9 .kh {
+    background-color: white;
+    height: 450px;
+    width: 380px;
+}
+
+.bg-img9 .kh .b1 {
+    height: 250px;
+    width: 380px;
+}
+
+.bg-img9 .kh:hover{
+    transition: all .5s;
+    transform: scale(1.01);
+    box-shadow: 1px 1px 2px 2px rgb(221, 221, 221);
+}
+.bg-img9 .kh:hover .b1{
+    transform: scale(1.001);
+}
+
+.bg-img9 .kh h3 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.kh a{
+    text-decoration: none;
+    color: black;
+}
+
+.kh a:hover{
+    transition: all .2s;
+    color: orange;
+}
+
+.kh p1{
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.kh p2{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-weight: 550;
+}
+
+.kh p2:hover{
+    color: orange;
+}
+
+.kh p3{
+    position: relative;
+    top: 50px;
+    left: 70px;
+    font-weight: 550;
+}
+
+.kh p3:hover{
+    color: orange;
+}
+
+.kh p4{
+    position: relative;
+    top: 49px;
+    right: 50px;
+}
+
+.kh h5{
+    position: relative;
+    top: 80px;
+    color: orange ;
+    text-align: center;
+    font-size: 17px;
+}
+
+.kh .date {
+    background-color: orange;
+    color: white;
+    height: 30px;
+     width: 40px;
+     padding: 10px 3px;
+     position: absolute;
+     margin-left: 20px;
+     margin-top: -250px;
+     text-align: center;
+}
+
+.bg-img9 .blog{
+    display: flex;
+    position: relative;
+    top: 150px;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 100px;
+}
+
+.bg-img10{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+   }
+   .sponsor{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 120px;
+    position: relative;
+    top: 100px;
+   }
+
+   .bg-img11 {
+    background-color: orange;
+    height: 170px;
+    width: 100%;
+}
+
+.bg-img11 h1{
+    color: white;
+    font-size:30px ;
+    position: relative;
+    top: 80px;
+    margin-left: 150px;
+}
+
+.bg-img11 input{
+    height: 60px;
+    width: 40%;
+    font-size: 17px;
+    border: none;
+    position: relative;
+    left: 700px;
+    top: 30px;
+    padding-left: 20px;
+}
+
+.bg-img11 button{
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    left: 560px;
+    top: 30px;
+    padding: 0px 30px;
+    background-color: orange;
+    color: white;
+}
